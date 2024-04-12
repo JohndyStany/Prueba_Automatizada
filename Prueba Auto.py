@@ -25,8 +25,8 @@ with open("resultados.html", "w") as resultados_file:
         username.clear()
         password.clear()
 
-        username.send_keys("frandydanieldelacruzarias@gmail.com")
-        password.send_keys("Frandy2017*")
+        username.send_keys("jondystany@gmail.com")
+        password.send_keys("JOHNst202105*")
 
         # Hacer clic para iniciar sesión
         button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[name='login']"))).click()
